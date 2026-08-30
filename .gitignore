@@ -1,6 +1,5 @@
 # Restricted or local data
 data/*.dta
-data/*.csv
 
 # Stata logs and generated outputs
 *.smcl

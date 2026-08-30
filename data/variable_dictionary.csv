@@ -1,0 +1,21 @@
+variable,description,coding_or_role
+depfreq_ord,Frequency of feeling depressed,"Ordinal scale from 1 (never) to 5 (daily)"
+unemployed,Economically unemployed,"1 if unemployed or laid off and seeking work; 0 otherwise"
+employed,Currently employed,"1 if working; 0 otherwise"
+hseduc,High school education,"Indicator; no degree is the education reference group"
+mediumeduc,Some college or associate degree,"Indicator; no degree is the education reference group"
+higheduc,Bachelor's degree or higher,"Indicator; no degree is the education reference group"
+male,Respondent is male,"Indicator; female is the reference group"
+black,Respondent identifies as Black,"Indicator; White is the race reference group"
+native,Respondent identifies as American Indian or Alaska Native,"Indicator; White is the race reference group"
+asian,Respondent identifies as Asian,"Indicator; White is the race reference group"
+mult_race,Respondent identifies with multiple races,"Indicator; White is the race reference group"
+povlev,Family income relative to the federal poverty threshold,Continuous ratio
+partnered,Currently married or partnered,"Indicator; previously partnered is the reference group"
+nevermarried,Never married,"Indicator; previously partnered is the reference group"
+age,Age in years,Continuous
+hhkids1,One child in household,"Indicator; no children is the reference group"
+hhkids2,Two children in household,"Indicator; no children is the reference group"
+hhkids3plus,Three or more children in household,"Indicator; no children is the reference group"
+agesq,Squared age,Quadratic term
+unempXpovlev_c,Unemployment by centered poverty-level interaction,Interaction term
