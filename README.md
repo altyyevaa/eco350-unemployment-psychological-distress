@@ -1,2 +1,2 @@
 # Unemployment-and-Psychological-Distress-An-Analysis-Using-NHIS-Data
-Small Econometrics I Final Paper 
+Econometrics I (ECO 350) Final Paper, Fall 2025
