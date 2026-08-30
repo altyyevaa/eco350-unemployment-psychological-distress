@@ -1,4 +1,4 @@
-# Unemployment and Psychological Distress
+# Unemployment and Psychological Distress: An Analysis Using NHIS Data
 
 Econometrics course project analyzing the association between employment status and depressive-symptom frequency among U.S. adults using the 2024 National Health Interview Survey (NHIS).
 
