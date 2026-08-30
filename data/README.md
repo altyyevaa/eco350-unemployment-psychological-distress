@@ -1,6 +1,14 @@
-# Data access
+# Data and reproducibility
 
-## Required analytical file
+| Resource | Contents |
+|---|---|
+| [`summary_statistics.csv`](summary_statistics.csv) | Aggregate descriptive statistics for the 29,318-person analytical sample |
+| [`variable_dictionary.csv`](variable_dictionary.csv) | Definitions, coding, and reference groups for the constructed variables |
+| [`01_analysis.do`](../code/01_analysis.do) | Stata code for the reported models, diagnostics, and robust inference |
+| [Final paper](https://drive.google.com/file/d/1_vCNyI2O_FXc6LCuoC10HDf2oefpaGbJ/view?usp=drive_link) | Complete methodology, results, limitations, and references |
+| [IPUMS NHIS data portal](https://nhis.ipums.org/nhis/) | Official access point for the licensed 2024 NHIS microdata |
+
+## Analytical file
 
 The analysis script expects the following file:
 
@@ -8,9 +16,9 @@ The analysis script expects the following file:
 data/Final_Project_Dataset.dta
 ```
 
-The file is not distributed through this public repository because it contains respondent-level microdata obtained through IPUMS NHIS. The IPUMS NHIS terms require permission for redistribution.
+The analytical file contains respondent-level microdata obtained through IPUMS NHIS and therefore requires licensed access. The public materials above document the complete variable structure, reported descriptive statistics, and analytical workflow.
 
-## Obtain the source data
+## Reproduce the analysis
 
 1. [Open the IPUMS NHIS data portal](https://nhis.ipums.org/nhis/).
 2. Sign in or register for research access.
@@ -18,7 +26,7 @@ The file is not distributed through this public repository because it contains r
 4. Reconstruct the analytical variables described in the paper.
 5. Save the cleaned file as `data/Final_Project_Dataset.dta` before running `code/01_analysis.do`.
 
-The analytical sample used in the paper contains 29,318 U.S. adults. See [`variable_dictionary.csv`](variable_dictionary.csv) for the constructed variables and [`summary_statistics.csv`](summary_statistics.csv) for the aggregate descriptive statistics reported in the paper.
+The analytical sample used in the paper contains 29,318 U.S. adults.
 
 ## Citation
 
